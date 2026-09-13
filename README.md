@@ -80,18 +80,25 @@ Description: It is a website for a person to show which technologies he is profe
 I use React, Tailwind, JS, TS, etc.
 
 
+What is JSX, and why is it used in React?
 JSX stands for JavaScript XML. It is a syntax extension for JavaScript that allows you to write HTML-like code directly inside your JavaScript files.
 While JSX is not strictly required by React, it makes writing components much easier and more visual.
 
+What is the difference between props and state?
 Both props and state are plain JavaScript objects used to hold data that influences the UI, but they serve different purposes.
 
+What does the useEffect hook do, and why did you need it to load the JSON data?
+What does the useState hook do, and where did you use it in this project?
 The useState hook allows functional components to create and manage local state. It returns an array with two elements: the current state value and a function to update it. Whenever the update function is called, React re-renders the component to display the new data.
 
+Why does every item in a .map() list need a unique key prop?
 The useEffect hook lets you perform side effects in functional components. Side effects include tasks like fetching data, setting up event listeners, or manually changing the DOM. It runs after the component renders on the screen.
 When the app loads, you need to fetch the JSON file exactly once. By putting the fetch() or axios request inside useEffect and passing an empty dependency array [], React ensures the data is loaded immediately after the component mounts without causing an infinite re-rendering loop.
 
 React requires a unique key prop to identify which items in a list have changed, been added, or been removed.
 
+What is conditional rendering? Show one place you used it (example: the empty stack message).
 Conditional rendering means rendering different components or UI elements based on specific conditions or criteria. It works exactly like conditions (if-else or ternary operators) in standard JavaScript.
 
+How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 Parent to Child: Data is passed downwards by adding custom attributes (called Props) to the child component inside the parent component.Parent: <ChildComponent username="John" />Child: Accesses it via props.username.Child to Parent: A child cannot pass data straight up to a parent. Instead, the parent must pass a callback function down to the child as a prop. The child component then triggers this function (usually via an event like a button click) and passes the data back as an argument.Parent: <ChildComponent onDataReceived={handleData} />Child: <button onClick={() => props.onDataReceived("Hello Parent!")}>Click Me</button>
