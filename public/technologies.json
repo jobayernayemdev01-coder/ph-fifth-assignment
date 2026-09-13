@@ -1,0 +1,144 @@
+{
+  "categories": [
+    "Frontend",
+    "Backend",
+    "Database",
+    "Language",
+    "Styling",
+    "DevOps"
+  ],
+  "technologies": [
+    {
+      "id": "react",
+      "name": "React",
+      "category": "Frontend",
+      "badge": "Popular",
+      "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+      "difficulty": "Beginner-Friendly",
+      "rating": 4.9,
+      "icon": "react.svg",
+      "website": "https://react.dev"
+    },
+    {
+      "id": "vuejs",
+      "name": "Vue.js",
+      "category": "Frontend",
+      "badge": "Versatile",
+      "description": "An approachable, performant, and versatile framework for building web user interfaces.",
+      "difficulty": "Beginner-Friendly",
+      "rating": 4.8,
+      "icon": "vuedotjs.svg",
+      "website": "https://vuejs.org"
+    },
+    {
+      "id": "svelte",
+      "name": "Svelte",
+      "category": "Frontend",
+      "badge": "Fast",
+      "description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
+      "difficulty": "Intermediate",
+      "rating": 4.8,
+      "icon": "svelte.svg",
+      "website": "https://svelte.dev"
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "category": "Frontend",
+      "badge": "SSR / Edge",
+      "description": "The React framework for full-stack web applications with hybrid static & server rendering.",
+      "difficulty": "Intermediate",
+      "rating": 4.9,
+      "icon": "nextdotjs.svg",
+      "website": "https://nextjs.org"
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "category": "Backend",
+      "badge": "Standard",
+      "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
+      "difficulty": "Intermediate",
+      "rating": 4.8,
+      "icon": "nodedotjs.svg",
+      "website": "https://nodejs.org"
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "category": "Database",
+      "badge": "Top SQL",
+      "description": "A powerful, open-source object-relational database system with proven reliability.",
+      "difficulty": "Intermediate",
+      "rating": 4.9,
+      "icon": "postgresql.svg",
+      "website": "https://www.postgresql.org"
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "category": "Database",
+      "badge": "Cache",
+      "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
+      "difficulty": "Intermediate",
+      "rating": 4.8,
+      "icon": "redis.svg",
+      "website": "https://redis.io"
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "category": "Language",
+      "badge": "Ubiquitous",
+      "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
+      "difficulty": "Beginner-Friendly",
+      "rating": 4.9,
+      "icon": "javascript.svg",
+      "website": "https://developer.mozilla.org/docs/Web/JavaScript"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "category": "Language",
+      "badge": "Essential",
+      "description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
+      "difficulty": "Intermediate",
+      "rating": 4.9,
+      "icon": "typescript.svg",
+      "website": "https://www.typescriptlang.org"
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "category": "Language",
+      "badge": "Robust",
+      "description": "A secure, object-oriented programming language designed for portability and scale.",
+      "difficulty": "Intermediate",
+      "rating": 4.6,
+      "icon": "java.png",
+      "website": "https://www.java.com"
+    },
+    {
+      "id": "tailwindcss",
+      "name": "Tailwind CSS",
+      "category": "Styling",
+      "badge": "Modern",
+      "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
+      "difficulty": "Beginner-Friendly",
+      "rating": 4.9,
+      "icon": "tailwindcss.svg",
+      "website": "https://tailwindcss.com"
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "category": "DevOps",
+      "badge": "Containers",
+      "description": "A platform designed to build, share, and run containerized applications reliably.",
+      "difficulty": "Intermediate",
+      "rating": 4.9,
+      "icon": "docker.svg",
+      "website": "https://www.docker.com"
+    }
+  ]
+}
